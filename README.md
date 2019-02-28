@@ -1,7 +1,7 @@
 # Files for REMOTE SENSING course 
 (MSc in Hydrogeology and Geothermics, Université de Neuchâtel), Spring 2019
 
-![Université de Neuchâtel logo](https://de.wikipedia.org/wiki/Universit%C3%A4t_Neuenburg#/media/File:Logo-unine.png)
+![Université de Neuchâtel logo](image_for_readme.png)
 
 Author: Landon Halloran (www.ljsh.ca)
 
