@@ -4,6 +4,7 @@
 // Use LANDSAT-8 data to look at the Hunga Tonga-Hunga Ha'apai volcano eruption and subsequent reestablishment of vegetation.
 // https://en.wikipedia.org/wiki/Hunga_Tonga
 // https://www.bbc.com/news/world-asia-47153797
+// https://www.20minutes.fr/planete/2445327-20190206-tonga-surgie-eau-quatre-ans-nouvelle-ile-accueille-deja-vie
 
 // region of interest:
 var box = ee.Geometry.Polygon([[
