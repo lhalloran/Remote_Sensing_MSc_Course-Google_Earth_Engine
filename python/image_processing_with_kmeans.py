@@ -86,4 +86,4 @@ for row in imagecube:
     i=i+1
 # plot the map of the clustered data
 plt.figure(figsize=thefigsize)
-plt.imshow(imageclustered, cmap='gist_earth')
+plt.imshow(imageclustered, cmap='rainbow') # see other colour maps @ https://matplotlib.org/examples/color/colormaps_reference.html
