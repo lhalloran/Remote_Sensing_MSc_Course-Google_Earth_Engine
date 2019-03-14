@@ -46,7 +46,7 @@ plt.imshow(imagecube[:,:,0:3])
 
 
 # sample random subset of images
-Nsamples = 1000 # number of samples we take from image
+Nsamples = 5000 # number of samples we take from image
 imagesamples = []
 for i in range(Nsamples):
     xr=np.random.randint(0,imagecube.shape[1]-1)
@@ -64,7 +64,7 @@ pp1=sns.pairplot(imagessamplesDF, plot_kws = seaborn_params_p)#, hist_kws=seabor
 # fit kmeans to to samples:
 from sklearn.cluster import KMeans
 
-NUMBER_OF_CLUSTERS = 4 # <---------- define number of clusters (groups) here!
+NUMBER_OF_CLUSTERS = 5 # <---------- define number of clusters (groups) here!
 KMmodel = KMeans(n_clusters=NUMBER_OF_CLUSTERS) 
 KMmodel.fit(imagessamplesDF)
 KM_train = list(KMmodel.predict(imagessamplesDF)) 
