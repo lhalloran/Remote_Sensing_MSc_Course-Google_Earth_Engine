@@ -18,7 +18,7 @@ var dataset = ee.ImageCollection('MODIS/006/MOD16A2')
 var evapotranspiration = dataset.select('ET'); // can also use 'PET' for POTENTIAL evapotranspiration
 
 // this conversts the imageCollection to an image (by taking the mean)
-var evapotranspirationSelect = evapotranspiration.mean(); // this selects the first date available
+var evapotranspirationSelect = evapotranspiration.mean();
 
 // display parameters:
 var evapotranspirationVis = {
